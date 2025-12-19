@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I am a web developer and this is my portfolio">
+    <meta name="keywords" content="web,html,php,css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Seif Elsawah</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/013/313/458/non_2x/html-icon-3d-rendering-illustration-vector.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="jscript.js"></script>
+</head>
+<body>
+<header>
+    <h1>Hello, I’m Seif</h1>
+    <p>Aspiring <strong>Data Scientst</strong></p>
+</header>
+
+<main>
+    <section>
+        <h2 class="cl2"> About Me</h2>
+        <article>
+            <h3>What I enjoy</h3>
+            <p>
+                I enjoy <em>building websites</em> and learning new technologies.
+                <del>At first, coding felt impossible,</del>  
+                <ins>but now I see it as a fun challenge!</ins>
+            </p>
+            <p>
+                Here’s a <q>quote I love</q>: 
+                <blockquote>
+                      الضرب في الميت حرام
+                </blockquote>
+            </p>
+            <p>
+                Water is H<sub>2</sub>O and the area of a square is x<sup>2</sup>.
+            </p>
+            <p>
+                I use many web technologies like 
+                <abbr title="HyperText Markup Language">HTML</abbr> and 
+                <abbr title="Cascading Style Sheets">CSS</abbr>.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript
+                <ul>
+                    <li>Angular</li>
+                    <li>React.js</li>
+                    <li>Vue.js</li>
+                </ul>
+            </li>
+            <li>PHP</li>
+            <li>Python</li>
+            <li id="id1"> Solving </li>
+        </ul>
+    </section>
+
+    <section>     
+        <h2>Projects</h2>
+        <ol type="I">
+            <li>Personal Blog using HTML & CSS</li>
+            <li>Calculator App with JavaScript</li>
+            <li>Portfolio Website</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>JavaScript Code Example</h2>
+<pre><code>
+    function hello(){
+        console.log("hello");
+    }
+
+    hello();
+</code></pre>
+    </section>
+
+    <section>
+        <h2>My Projects Table</h2>
+        <table border="1" width="60%">
+            <caption><strong>Portfolio Projects Summary</strong></caption>
+            <tr>
+                <th>Project Name</th>
+                <th>Type</th>
+                <th colspan="2">Technologies</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>Frontend</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Blog Platform</td>
+                <td rowspan="2">Full Stack</td>
+                <td>HTML, JS</td>
+                <td>PHP, MySQL</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>Task Manager App</td>
+                <td>React</td>
+                <td>Node.js</td>
+                <td>Testing</td>
+            </tr>
+            <tr>
+                <td>Weather App</td>
+                <td>Frontend</td>
+                <td colspan="2">HTML, CSS, JavaScript</td>
+                <td>Completed</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Embedded Content</h2>
+        <iframe width="500" height="500" src="https://gazijarin.com/"></iframe>
+        <hr> 
+        <video src="facebook_login.mp4" width="500" controls></video>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name" required><br><br>
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <label>Message:</label><br>
+            <textarea placeholder="Write your message here"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <section>
+        <h4>Copyright</h4>
+        <p>Copyright &copy; 2025 Seif Elsawah</p>
+        <p>Registered Trademark &reg; Web Portfolio</p>
+    </section>
+</main>
+
+<footer>
+    <h2>Find Me Online:</h2>
+    <nav>
+        <a href="https://github.com/" target="_blank">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/seif-elsawah-82346a373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+    </nav>
+    <div+ class ="div1">
+        <h4>test</h4>
+        <p>this is a test</p>
+         <p class="overflow" > rhoehoeiuhbpehvvvvvvvvhjjjdsssssssssssssssssssssssssssss
+            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssppppppppppppppppppppppp
+            pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+            pppppppppppppppppppppppppppppddddddddddddddddddddddddddddddddddddddddddddiiiiiiiiiiiiiiiiiiiiiii
+            iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiinccccccccccccccccccccccccc</p>
+              <div class="container">
+                <div class="child1">child1 </div>
+                <div class="child2">child1 </div>
+                <div class="child3">child1 </div>
+                <div class="child4">child1 </div>
+                <div class="child3">child1 </div>
+                <div class="child2">child1 </div>
+                <div class="child1">child1 </div>
+                <div class="child1">child1 </div>
+            </div>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html>
+    <head>
+        <title>Seif elsawah</title>
+        <link rel="icon"href="data:image/jpeg;base64,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">
+    </head>
+    <body>
+        <img src="data:image/jpeg;base64,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">
+    <table border="1">
+        <caption> supermarket bill</caption>
+        <thead>
+          <tr>
+         <th>item</th>
+        <th> price</th>
+        <th> quantity<th>
+
+          </tr>
+          <td>coffe</td>
+          <td>  90 </td>
+          <td>   3 </td> 
+          <tr>
+            <td>milk</td>
+            <td> 50</td>
+            <td rowspan="2"> 2</td>
+          </tr>
+          <td> bread</td>
+          <td>  60</td>
+
+          <tbody>
+                <tfoot>
+               <tr>
+                <td colspan="3"> total is 230</td>
+               </tr>
+                </tfoot>
+            </tbody>
+        </thead>
+    </table>
+    <label>
+        username
+    </label>
+    <form>
+        <input type ="text" required value="seif" placeholder="enter your name"> 
+        <br>
+        <label>
+            email
+        </label>
+        <input type ="email" required placeholder="enter your email nigga" >
+        <label>
+            password
+        </label>
+        <input type="password" >
+        <br>
+        <input type="file">
+        <br>
+        <label>birthday</label>
+        <input type ="date">
+        <br>
+         <input type="button">
+        <br>    
+         <input type="color">
+
+        <input type="submit">
+    </form>'
+    <p>this is what html means:<abbr title="hyper text markup language" >html</abbr></p>
+    </body>
+</html>
+
+
+
+
+
+
+  el java script
+
+var person ={
+        name:"seif",
+        major:"Data & AI ",
+        hello:function(){
+                console.log("welcome "+this.name)
+
+        }
+}
+person.hello()
+console.log(person.major)
+person.name="sara"
+console.log(person)
+person.age=28
+console.log(person)
+delete person.major
+console.log(person)
+console.log(Object.keys(person))
+console.log(Object.values(person))
+console.log(Object.entries(person))
+var p2={}
+Object.assign(p2,person,{major:"cs"})
+console.log(p2)
+
+
+
+
+for(var key in p2){
+        console.log(key+" "+p2[key])
+}
+function Person(name,major){
+        this.name=name
+        this.major=major
+
+}
+var p3 = new Person("hamada","cyber")
+var p4 = new Person("dodo","art")
+
+function Animal(name){
+        this.name =name
+}
+// console.log(Array.prototype)
+Animal.prototype.sound=function(){
+        console.log(this.name+"sound")
+}
+let a = new Animal("elephant")
+a.sound()
+function Cat(name){
+        this.name=name
+}
+Cat.prototype=Object.create(Animal.prototype)
+let c = new Cat("cat")
+c.sound()
+class Animall{
+        constructor(name){
+ this.name=name}
+     sound(){
+        console.log(this.name+"sound")
+     }
+}
+var a2 = new Animall("DOG")
+a2.sound()
+class Catt extends Animall{
+   constructor(name,breed)
+   {super(name)
+        this.breed=breed}
+sound(){
+console.log(this.name+"meow")
+}
+}
+var a2 = new Animall("DOG")
+a2.sound()
+var c2 = new Catt("hello kitty","breed")
+c2.sound()
+
+let str = JSON.stringify(p2)
+console.log(str)
+
+let obj = JSON.parse(str)
+console.log(obj)
