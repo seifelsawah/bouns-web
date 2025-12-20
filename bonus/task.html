@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Beginner Version</title>
+    <!-- BARBOT B EL CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Seif Task Manger</h1>
+            <button onclick="toggleTheme()">🌙 Theme</button>
+        </header>
+
+        <div class="form-box">
+            <h2>Add New Task</h2>
+            <form onsubmit="addTask(event)">
+                <input type="text" id="inTitle" placeholder="Task Title..." required>
+                <select id="inPriority">
+                    <option value="High">High Priority</option>
+                    <option value="Medium" selected>Medium Priority</option>
+                    <option value="Low">Low Priority</option>
+                </select>
+                <textarea id="inDesc" rows="2" placeholder="Description..."></textarea>
+                <button type="submit" class="btn-add">Add Task</button>
+            </form>
+        </div>
+
+        <div style="margin-bottom: 15px; display: flex; justify-content: space-between;">
+            <strong>My Tasks</strong>
+            <select id="filterSelect" onchange="renderTasks()">
+                <option value="All">Show All</option>
+                <option value="High">High Only</option>
+                <option value="Medium">Medium Only</option>
+                <option value="Low">Low Only</option>
+            </select>
+        </div>
+
+        <div id="taskList">
+            <!-- TASKAT HTZHR HENA -->
+        </div>
+    </div>
+
+    <!-- BAMSAH TASK -->
+    <div id="deleteModal" class="modal-overlay">
+        <div class="modal-box">
+            <h3>Are you sure?</h3>
+            <p>Do you really want to delete this?</p>
+            <br>
+            <button onclick="closeModal()">Cancel</button>
+            <button onclick="confirmDelete()" class="btn-delete">Yes, Delete</button>
+        </div>
+    </div>
+
+    <!-- BARBOT B JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
